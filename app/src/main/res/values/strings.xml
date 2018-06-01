@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">bakeapp</string>
+    <string name="emptyrecipe">Loading..</string>
+    <string name="retry">RETRY</string>
+    <string name="servings">Servings: %1$d</string>
+    <string name="ingredient_amount">%1$s %2$s</string>
+    <string name="step">%1$d. %2$s</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="instructions">Instructions</string>
+    <string name="list_ingr">ingredientsList</string>
+    <string name="list_steps">stepsList</string>
+    <string name="title_recipes">recipeName</string>
+    <string name="spos">stepPosition</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="position">position</string>
+    <string name="recipeName">recipeName</string>
+    <string name="recep_id">recipeId</string>
+    <string name="serving">servingSize</string>
+    <string name="iList">ingredientsList</string>
+    <string name="steps">stepsList</string>
+    <string name="bookmarks_unavailable">Bookmark a recipe to see it here </string>
+    <string name="empty_page">This page is empty</string>
+</resources>

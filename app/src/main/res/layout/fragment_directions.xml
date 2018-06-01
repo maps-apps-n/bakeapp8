@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/desc_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StepsFragment">
+
+    <android.support.design.widget.AppBarLayout
+    android:id="@+id/appbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/margin_rv_bottom"
+                    android:src="@drawable/ic_arrow_back_white_24dp"
+                    android:background="@android:color/transparent"
+                    android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/desc_tvbar"
+                style="@style/ToolbarText"
+                android:maxLines="1"
+                android:gravity="center_vertical"
+                android:ellipsize="end"
+                android:fontFamily="@font/raleway_bold"
+                tools:text="Introduction"
+                android:textSize="@dimen/description_text" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/exoplay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/exo_height"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/exo_desc_marginStart"
+        android:layout_marginTop="@dimen/exo_desc_marginTop"
+        android:textSize="@dimen/description_text"
+        android:textColor="@color/colorText"
+        tools:text="directions" />
+
+</LinearLayout>

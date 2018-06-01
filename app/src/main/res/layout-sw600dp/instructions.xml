@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstructionsActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/instructions_appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tb_instr"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <TextView
+                android:id="@+id/title_instr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/main_text"
+                android:textStyle="bold"
+                android:textColor="@color/toolbarTextColor"
+                android:gravity="center_vertical"
+                tools:text="Nutella Pie"/>
+
+            <ToggleButton
+                android:id="@+id/toggle_bookmark"
+                android:layout_width="@dimen/toggle_button"
+                android:layout_height="@dimen/toggle_button"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/margin_bookmark_end"
+                android:background="@drawable/fav_toggle_selector"
+                android:textOn=""
+                android:textOff=""/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+        <FrameLayout
+            android:id="@+id/instcontainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <FrameLayout
+        android:id="@+id/inst_direction"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"/>
+
+</android.support.design.widget.CoordinatorLayout>

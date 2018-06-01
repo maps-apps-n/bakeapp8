@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="@dimen/widget_padding"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/appbar_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/tv_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_view"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textSize="@dimen/main_text"
+        android:textColor="@color/toolbarTextColor"
+        android:textStyle="bold" />
+</FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    <ListView
+        android:id="@+id/widget"
+        android:fontFamily="@font/raleway_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="0dp"
+        tools:listitem=""/>
+
+        <TextView
+            android:id="@+id/empty_widget"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/raleway_light"
+            android:text="@string/bookmarks_unavailable"/>
+
+</FrameLayout>
+</LinearLayout>

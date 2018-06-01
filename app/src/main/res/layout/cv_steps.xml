@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/cornerRadius2"
+    android:layout_marginBottom="@dimen/margin_rv_bottom">
+
+    <RelativeLayout
+        android:id="@+id/steps_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height"
+        android:background="@drawable/list_selector">
+
+        <TextView
+            android:id="@+id/steps_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_steps"
+            android:textSize="@dimen/fragment_text"
+            android:textStyle="bold"
+            android:fontFamily="@font/raleway_light"
+            android:textColor="@color/colorText"
+            android:layout_centerVertical="true"
+            tools:text="Recipe Introduction"/>
+
+        <ImageView
+            android:id="@+id/goto_desc_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin"
+            android:layout_toEndOf="@id/steps_desc"
+            android:layout_toStartOf="@id/goto_desc_info"
+            android:scaleType="centerCrop"/>
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>

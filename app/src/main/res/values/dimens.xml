@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_text">28sp</dimen>
+
+    <dimen name="cornerRadius">4dp</dimen>
+    <dimen name="cornerRadius2">0dp</dimen>
+    <dimen name="widget_padding">8dp</dimen>
+    <dimen name="toggle_button">36dp</dimen>
+    <dimen name="main_text">26sp</dimen>
+    <dimen name="description_text">18sp</dimen>
+    <dimen name="height_bar">112dp</dimen>
+    <dimen name="elevation_bar">4dp</dimen>
+    <dimen name="margin">6dp</dimen>
+    <dimen name="margin_bookmark_end">12dp</dimen>
+    <dimen name="margin_rv_bottom">1dp</dimen>
+    <dimen name="margin_rv">4dp</dimen>
+    <dimen name="height_rv">145dp</dimen>
+    <dimen name="margin_view">8dp</dimen>
+    <dimen name="bookmark_size">30dp</dimen>
+    <dimen name="ex_thumbnail_size">220dp</dimen>
+    <dimen name="exo_height">280dp</dimen>
+    <dimen name="exo_height_land">230dp</dimen>
+    <dimen name="exo_desc_marginTop">8dp</dimen>
+    <dimen name="exo_desc_marginStart">12dp</dimen>
+    <dimen name="exo_text">12sp</dimen>
+    <dimen name="exo_seek_height">30dp</dimen>
+
+    <dimen name="list_text">20sp</dimen>
+    <dimen name="list_text2">18sp</dimen>
+    <dimen name="padding_steps">8dp</dimen>
+    <dimen name="padding_back_button">22dp</dimen>
+    <dimen name="fragment_text">18sp</dimen>
+    <dimen name="fragment_padding">4dp</dimen>
+    <dimen name="item_size">18sp</dimen>
+    <dimen name="layout_height">80dp</dimen>
+
+    <!-- Navigation bar -->
+    <dimen name="naviArrowWidth">100dp</dimen>
+    <dimen name="naviTextSize">20sp</dimen>
+
+
+</resources>
