@@ -147,10 +147,6 @@ public class StepsFragment extends Fragment {
             if (!videoUrl.equals("")) {
                 initializePlayer(Uri.parse(videoUrl));
                 getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_FULL_SENSOR);
-            } else {
-                assert exo != null;
-                exo.setVisibility(View.GONE);
-                getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_PORTRAIT);
             }
         } else {
             assert linear != null;
